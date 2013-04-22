@@ -22,7 +22,8 @@
   "dependencies": {
     "hubot": ">= 2.5.0",
     "hubot-scripts": ">= 2.4.2",
-    "optparse": "~1.0.4"
+    "optparse": "~1.0.4",
+    "hubot-irc": "~0.1.12"
   },
   "engines": {
     "node": ">= 0.8.x",
