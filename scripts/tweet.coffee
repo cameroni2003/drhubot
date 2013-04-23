@@ -22,6 +22,6 @@ module.exports = (robot) ->
 
         if tweets.results? and tweets.results.length > 0
           tweet  = msg.random tweets.results
-          msg.send tweet.text
+          msg.send '@' + tweet.from_user + ": " + tweet.text
         else
           msg.reply "No one is tweeting about that."
