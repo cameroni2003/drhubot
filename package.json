@@ -1,4 +1,4 @@
-{
+
   "name": "hosted-hubot",
   "version": "2.5.0",
   "author": "GitHub Inc.",
@@ -26,7 +26,8 @@
     "hubot-irc": "~0.1.12",
     "htmlparser": "1.7.x",
     "soupselect": "0.2.x",
-    "jsdom": "0.2.x"
+    "jsdom": "0.2.x",
+    "redis": "~0.8.3"
   },
   "engines": {
     "node": ">= 0.8.x",
