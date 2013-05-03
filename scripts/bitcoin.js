@@ -6,7 +6,7 @@
         var json;
 
         json = JSON.parse(body);
-        return msg.send('BTC: USD$#{json.USD.24h}');
+        return msg.send("BTC: USD$" + json.USD['24h']);
       });
     });
   };

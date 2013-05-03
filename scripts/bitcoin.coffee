@@ -18,4 +18,5 @@ module.exports = (robot) ->
 			.get() (err, res, body) ->
 				json = JSON.parse(body)
 
-				msg.send 'BTC: USD$#{json.USD.24h}'
+				msg.send "BTC: USD$#{json.USD['24h']}"
+
