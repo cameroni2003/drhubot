@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/bitcoin.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/bitcoin.coffee" afterPath="$PROJECT_DIR$/scripts/bitcoin.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drhubot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" time="1367539795441" ignored="false" />
-    <file path="/bitcoin.coffee" changelist="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" time="1367546231812" ignored="false" />
+    <file path="/bitcoin.coffee" changelist="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" time="1367547074720" ignored="false" />
     <file path="/a.coffee" changelist="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" time="1367546735687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
       <file leaf-file-name="tweet.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/tweet.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="0" selection-end="695" vertical-scroll-proportion="0.0">
+            <state line="12" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,7 +42,7 @@
       <file leaf-file-name="bitcoin.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/bitcoin.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="8" selection-start="393" selection-end="393" vertical-scroll-proportion="0.4140197">
+            <state line="17" column="47" selection-start="373" selection-end="373" vertical-scroll-proportion="0.39101863">
               <folding />
             </state>
           </provider>
@@ -247,16 +248,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/web.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.9769989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/tweet.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="0" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="12" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/bitcoin.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="393" selection-end="393" vertical-scroll-proportion="0.4140197">
+        <state line="17" column="47" selection-start="373" selection-end="373" vertical-scroll-proportion="0.39101863">
           <folding />
         </state>
       </provider>

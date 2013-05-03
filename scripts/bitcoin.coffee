@@ -13,10 +13,13 @@
 #   atmos
 
 module.exports = (robot) ->
-  robot.respond /bitcoin/i, (msg) ->
+  robot.respond /bitcoin (\w+)/i, (msg) ->
+    cur = msg.match[1].toUpperCase()
     msg.http('http://api.bitcoincharts.com/v1/weighted_prices.json')
       .get() (err, res, body) ->
         json = JSON.parse(body)
-
-        msg.send "BTC: USD$#{json.USD['24h']}"
+        if json[cur]
+          msg.send "BTC: #{cur}$#{json[cur]['24h']}"
+        else
+          msg.send "Didn't find your currency."
 
