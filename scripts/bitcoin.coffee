@@ -13,10 +13,10 @@
 #   atmos
 
 module.exports = (robot) ->
-	robot.respond /bitcoin/i, (msg) ->
-		msg.http('http://api.bitcoincharts.com/v1/weighted_prices.json')
-			.get() (err, res, body) ->
-				json = JSON.parse(body)
+  robot.respond /bitcoin/i, (msg) ->
+    msg.http('http://api.bitcoincharts.com/v1/weighted_prices.json')
+      .get() (err, res, body) ->
+        json = JSON.parse(body)
 
-				msg.send "BTC: USD$#{json.USD['24h']}"
+        msg.send "BTC: USD$#{json.USD['24h']}"
 
