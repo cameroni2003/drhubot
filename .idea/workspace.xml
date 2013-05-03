@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36c14f3-63dd-4c9b-aabb-75c1fb9ee289" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/bitcoin.coffee" afterPath="$PROJECT_DIR$/scripts/bitcoin.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/bitcoin.js" afterPath="$PROJECT_DIR$/scripts/bitcoin.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/bitcoin.js" afterPath="" />
     </list>
     <ignored path="drhubot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="bitcoin.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/bitcoin.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4600219">
+            <state line="22" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.5060241">
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
     <option name="height" value="1056" />
@@ -159,7 +158,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -251,7 +250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/bitcoin.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4600219">
+        <state line="22" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.5060241">
           <folding />
         </state>
       </provider>
