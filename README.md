@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
@@ -181,6 +180,3 @@ if you're having issues.
 =======
 drhubot
 =======
-
-drhubot
->>>>>>> 95de306dc343bec2cbef4805c84ed4aaa54f35bc
