@@ -34,5 +34,3 @@ module.exports = (robot) ->
       msg.send "didn't find anything"
     else
       msg.send "Found: #{saveObj[key]}"
-
-
