@@ -27,8 +27,6 @@ module.exports = (robot) ->
     msg.send "Key: #{key} | Value: #{val}"
 
   robot.respond /show this (\w+)/i, (msg) ->
-    msg.send "i'm responding"
-    return
     key = msg.match[1]
 
     saveObj = robot.brain.get 'tempSave'
