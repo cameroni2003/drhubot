@@ -13,6 +13,8 @@
 #   atmos
 
 module.exports = (robot) ->
+  robot.respond /testtest/i, (msg) ->
+    msg.send 'test worked'
   robot.respond /save this (\w+) (\w+)/i, (msg) ->
     key = msg.match[1]
     val = msg.match[2]
@@ -21,6 +23,7 @@ module.exports = (robot) ->
     if not saveObj
       saveObj = {}
     saveObj[key] = val
+    robot.brain.set 'tempSave', saveObj
     msg.send "Key: #{key} | Value: #{val}"
 
   robot.respond /show this (\w+)/i, (msg) ->
